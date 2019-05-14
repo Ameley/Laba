@@ -2,6 +2,7 @@
 #include <math.h>
 #include <cstring>
 using namespace std;
+//Учебная программа
 int main()
 {
 	setlocale(LC_ALL, "rus");
