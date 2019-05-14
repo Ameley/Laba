@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	int a,b,x,y,z;
+	int a,b,x,y,v,z;	
 	cout<<"Enter number a:\n";
 	cin>>a;
 	cout<<"Enter number b:\n";
@@ -14,8 +14,10 @@ int main()
 	x=a+b;
 	cout<<"a+b="<<x<<"\n";
 	y=a-b;
-	cout<<"a-b=\n"<<y<<"\n";
+	cout<<"a-b="<<y<<"\n";
+	v=a/b;
+	cout<<"a/b="<<v<<"\n";	
 	z=a*b;
-	cout<<"a*b=\n"<<z<<"\n";
+	cout<<"a*b="<<z<<"\n";	
 	return 0;
 }
